@@ -102,3 +102,32 @@ header a:hover{
     color:black!important;
     font-weight: 600;
 }
+.cards{
+    background-image: url('../photo/cardsi.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+.cards .card{
+    border:none;
+}
+.cards img{
+    width:150px;
+    height:150px;
+    border-radius:10%;
+   
+}
+.cardone,.cardthree{
+    background: transparent!important;
+}
+.cards a{
+    text-decoration: none;
+    color: #16AEE6;
+}
+.cards a:hover{
+    text-decoration: none;
+    color: #16AEE6;
+}
