@@ -1,0 +1,121 @@
+@media only screen and (max-width: 600px) {
+    .navbar-brand img{
+        width:80px;
+        height:80px;
+    }
+   
+    .banner-img{
+        height:70px;
+       
+    }
+    .card-img{
+        width:70px!important;
+        height: auto;
+    }
+    .modal-free-fire{
+        margin-top:340px;
+       
+    }
+    .free-fire-img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .animate-bottom {
+        position: relative;
+        animation: animatebottom 0.4s;
+      }
+      
+      @keyframes animatebottom {
+        from {
+          bottom:-100px;
+          opacity: 0;
+        }
+      
+        to {
+          bottom:0;
+          opacity: 1;
+        }
+      }
+      .navbar-collapse .head{
+          width:50%;
+          row-gap: 10px;
+      }
+      .navbar-collapse .head .head-one, .head-two{
+          background-color: rgba(216, 216, 216, 0.589);
+          border:1px solid white;
+          padding:5px 10px;
+      }
+      .navbar-collapse .head .head-one{
+       padding-right:5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner-img{
+        height:70px;
+       
+    }
+    .card-img{
+        width:70px!important;
+        height: auto;
+    }
+    .modal-free-fire{
+        margin-top:340px;
+       
+    }
+    .free-fire-img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+      .navbar-collapse .head{
+          width:50%;
+          row-gap: 10px;
+      }
+      .navbar-collapse .head .head-one, .head-two{
+          background-color: rgba(216, 216, 216, 0.589);
+          border:1px solid white;
+          padding:5px 10px;
+      }
+      .navbar-collapse .head .head-one{
+       padding-right:5px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .banner-img{
+        height:70px;
+       
+    }
+    .card-img{
+        width:70px!important;
+        height: auto;
+    }
+    .modal-free-fire{
+        margin-top:340px;
+       
+    }
+    .free-fire-img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+      .navbar-collapse .head{
+          width:50%;
+          row-gap: 10px;
+      }
+      .navbar-collapse .head .head-one, .head-two{
+          background-color: rgba(216, 216, 216, 0.589);
+          border:1px solid white;
+          padding:5px 10px;
+      }
+      .navbar-collapse .head .head-one{
+       padding-right:5px;
+    }
+}
+
+

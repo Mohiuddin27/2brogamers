@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+.login-section{
+   background-image:url('../photo/bgc2.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.login-form .card{
+    margin-top:150px;
+    margin-bottom:200px;
+    background-color: rgba(255, 255, 255, 0.301);
+
+    
+}
+.login-form img{
+    display: block;
+    margin:0 auto;
+}
+.login-form span{
+    width:100%;
+    border:2px solid #16AEE6;
+}
+.login-form .btn{
+    background-color: #16AEE6;
+    border:none;
+}
+.login-form .btn:hover{
+    background-color: #16AEE6;
+    border:none;
+}
+.registration-section img{
+    display: block;
+    margin:0 auto;
+}
+.registration-section .re-span{
+    width:100%;
+    border:2px solid #16AEE6;
+}
+.registration-section .card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.registration-section{
+    background-image: url('../photo/bgc3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forget-section{
+    background-image: url('../photo/forget.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
