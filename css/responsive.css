@@ -3,9 +3,7 @@
         width:80px;
         height:80px;
     }
-    .offcanvas-header {   
-        margin-left: 21rem;
-    }
+   
     .banner-img{
         height:70px;
        
@@ -65,9 +63,7 @@
         height:70px;
        
     }
-    .offcanvas-header {   
-        margin-left: 21rem;
-    }
+ 
     .card-img{
         width:70px!important;
         height: auto;
@@ -135,6 +131,11 @@
       .navbar-collapse .head .head-one{
        padding-right:5px;
     }
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .offcanvas-body {
+    justify-content: end !important;
+}
 }
 
 
