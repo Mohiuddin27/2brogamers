@@ -57,6 +57,26 @@
       padding:5px 10px;
      padding-right:5px;
   }
+ 
+  .navbar-toggler{
+      border:none!important;
+  }
+  .navbar-toggler:hover{
+    border:none!important;
+    }
+    .offcanvas-end {
+       
+        width: 200px !important;
+       
+    }
+    .userspan{
+       margin-top:5px;
+        display: block;
+        border:2px solid black;
+        float:left;
+        width:100%;
+    }
+
 }
 @media only screen and (max-width: 768px) {
     .banner-img{

@@ -138,6 +138,10 @@ header a:hover{
     text-decoration: none;
     color: #16AEE6;
 }
+.add-money-gatway{
+    background-color: rgb(245, 243, 243);
+    padding-top:20px;
+}
 /* @media (min-width: 992px){
     .navbar-expand-lg .offcanvas-body {
         justify-content: end !important;
