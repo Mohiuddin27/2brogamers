@@ -131,6 +131,11 @@
         padding:5px 10px;
        padding-right:5px;
     }
+    .uid-sediv h6{
+      display: block;
+      margin-left:-3px;
+       
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -167,6 +172,9 @@
       }
       .navbar-collapse .head .head-one{
        padding-right:5px;
+    }
+    .uid-sediv h6{
+        text-align: left;
     }
 }
 @media (min-width: 992px){
