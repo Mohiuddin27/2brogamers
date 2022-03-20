@@ -92,6 +92,9 @@ header a:hover{
     border-radius: 50%;
     object-fit: cover;
 }
+.apk:hover{
+    color:red!important;
+}
 
 .free-fire p{
     text-decoration: none;
@@ -142,6 +145,11 @@ header a:hover{
     background-color: rgb(245, 243, 243);
     padding-top:20px;
 }
+.button1 button{
+    display:block;
+    margin:0 auto;
+}
+
 /* @media (min-width: 992px){
     .navbar-expand-lg .offcanvas-body {
         justify-content: end !important;
