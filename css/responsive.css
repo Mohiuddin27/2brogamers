@@ -102,6 +102,10 @@
         border-radius: 50%;
         object-fit: cover;
     }
+    .tabal img{
+        width:30px;
+        height:30px;
+    }
     
       .navbar-collapse .head{
           width:50%;
