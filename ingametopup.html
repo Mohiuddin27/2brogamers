@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
@@ -18,6 +20,29 @@
    <header>
    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#"><img src="photo/logoo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">    
+          <button type="button" class="btn-close float-right" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav  head">
+            <li class="nav-item  text-center head-one">
+              <a class="nav-link"   href="login.html"><img src="photo/logo1.png"> Login</a>
+            </li>
+            <li class="nav-item text-center head-two">
+              <a class="nav-link"  href="registration.html"><img src="photo/registration.jpg"> Registration</a>
+            </li>
+          </ul>
+        
+          </div>
+        </div>
+      </nav>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand text-center" href="#"><img src="photo/logoo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,47 +58,98 @@
           </ul>
          
         </div>
-      </nav>
+      </nav> -->
    </div>
    </header>
-   <section class="cards">
+   <section class="banner">
        <div class="container">
-           <h2 class="text-center">Select As You Like!</h2><br>
            <div class="row">
-              <div class="col-md-4 col-6">
-                  <div class="card cardone text-center">
-                      <div class="card-body ">
-                          <a href="">
-                          <img class="mb-1" src="photo/ingametopup.jpg">
-                          <h5>Ingame-Topup</h5>
-                        </a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="card cardone text-center">
-                    <div class="card-body">
-                        <a href="">
-                        <img class="mb-1"src="photo/level.jpg">
-                        <h5>AirDrop/Level Up</h5>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="card cardthree text-center">
-                    <div class="card-body">
-                        <a href="">
-                        <img class="mb-1" src="photo/membership.jpg">
-                        <h5>Membership</h5>
-                        </a>
-                    </div>
-                </div>
-            </div>
+               <div class="col-md-12 col-xm-12">
+                <img class="banner-img"  src="photo/photo1.png">
+               </div>
            </div>
        </div>
    </section>
+   <section class="card-section">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-6  text-center">
+                        <a href="#" data-toggle="modal" data-target="#free-fire">
+                            <div class="card card1">
+                                <div class="card-body text-center">
+                                    
+                                    <img  class="card-img"  src="photo/in-game.jpg">
+                                <h6 style="font-weight: 400;margin-top:5px">In-game Topup</h6>
+                           
+                                </div>
+                            </div>
+                        </a>
+                            
+                    </div>
+                       
+                    <div class="col-md-6 col-6">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal">
+                        
+                               <div class="card card2">
+                                   <div class="card-body text-center">
+                                    <img class="card-img"  src="photo/airdrop.jpg">
+                                    <h6 style="font-weight: 400;margin-top:5px">Airdrop/Level Up</h6>
+                                   </div>
+                               </div><br>
+                           
+                            </a> 
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <a href="#" data-toggle="modal" data-target="#pubg-cod">
+                               <div class="card card3">
+                                   <div class="card-body text-center">
+                                    <img  class="card-img"  src="photo/member.jpg">
+                                    <h6 style="font-weight: 400;margin-top:5px">Membership</h6>
+                                   </div>
+                               </div>
+                            </a>
+                   </div>
+                   <div class="col-md-6 col-6">
+                    <a href="#" data-toggle="modal" data-target="#less">
+                         <div class="card card4">
+                             <div class="card-body text-center">
+                                <img  class="card-img"  src="photo/less.jpg">
+                                <h6 style="font-weight: 400;margin-top:5px">Less In More Event</h6>
+                             </div>
+                         </div>
+                        </a> 
+                        
+                </div>
+                   
+                </div>
+            </div>
+        </div>
+       </div>
+   </section>
 
+   <section>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="less" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title " id="exampleModalLabel">Event is not Available!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+       
+        
+      </div>
+    </div>
+  </div>
+   </section>
+ 
    <section class="footer">
       <div class="row"></div>
       <div class="col-md-8 offset-md-2 col-12 text-center">
@@ -90,6 +166,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 
 </body>

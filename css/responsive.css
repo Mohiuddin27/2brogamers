@@ -3,7 +3,9 @@
         width:80px;
         height:80px;
     }
-   
+    .offcanvas-header {   
+        margin-left: 21rem;
+    }
     .banner-img{
         height:70px;
        
@@ -60,6 +62,9 @@
         height:70px;
        
     }
+    .offcanvas-header {   
+        margin-left: 21rem;
+    }
     .card-img{
         width:70px!important;
         height: auto;
@@ -79,12 +84,15 @@
           width:50%;
           row-gap: 10px;
       }
-      .navbar-collapse .head .head-one, .head-two{
+     .head-two{
           background-color: rgba(216, 216, 216, 0.589);
           border:1px solid white;
           padding:5px 10px;
       }
-      .navbar-collapse .head .head-one{
+     .head-one{
+        background-color: rgba(216, 216, 216, 0.589);
+        border:1px solid white;
+        padding:5px 10px;
        padding-right:5px;
     }
 }

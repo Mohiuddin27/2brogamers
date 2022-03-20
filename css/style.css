@@ -23,6 +23,9 @@ header a:hover{
     text-decoration: none;
     color:black;
 }
+.head-one{
+    color: black!important;
+}
 /* .login{
     margin: 8px 0 0 10px;
     border: 1px solid #d9d9d9;
