@@ -132,12 +132,9 @@
        padding-right:5px;
     }
     .uid-img img{
-        width:190px!important;
+        width:150px!important;
     }
-    .uid-sediv h6{
-     
-       
-    }
+  
 }
 
 @media only screen and (max-width: 992px) {
