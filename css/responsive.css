@@ -110,8 +110,11 @@
         width:20px;
         height:20px;
     }
-    .ingamepage-h6{
-        font-size:17px;
+    .ingamepage-h4{
+        font-size:22px;
+    }
+    .ingamepage-h5{
+        font-size:15px;
     }
       .navbar-collapse .head{
           width:50%;
