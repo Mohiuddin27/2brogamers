@@ -131,9 +131,11 @@
         padding:5px 10px;
        padding-right:5px;
     }
+    .uid-img img{
+        width:190px!important;
+    }
     .uid-sediv h6{
-      display: block;
-      margin-left:-3px;
+     
        
     }
 }
