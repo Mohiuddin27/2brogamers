@@ -106,7 +106,13 @@
         width:30px;
         height:30px;
     }
-    
+    .ingamepage-logo{
+        width:20px;
+        height:20px;
+    }
+    .ingamepage-h6{
+        font-size:17px;
+    }
       .navbar-collapse .head{
           width:50%;
           row-gap: 10px;

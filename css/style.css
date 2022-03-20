@@ -167,5 +167,9 @@ header a:hover{
     height:40px;
 }
 .di-t{
-    
+    width:100px;
+    border:1px solid black;
+    float:right;
+    border-radius: 10px;
+    text-align: center;
 }
