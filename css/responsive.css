@@ -137,6 +137,15 @@
     .membership-section img{
         width:100%;
     }
+    .order-section .orderimg{
+        width:90px!important;
+        height:90px!important;
+
+    }
+    .tabal2 img{
+        width:20px;
+        height: 20px;;
+    }
   
 }
 
@@ -162,7 +171,10 @@
         border-radius: 50%;
         object-fit: cover;
     }
-    
+    .tabal2 img{
+        width:20px!important;
+        height: 20px!important;
+    }
       .navbar-collapse .head{
           width:50%;
           row-gap: 10px;
