@@ -162,6 +162,17 @@ header a:hover{
    
 
 }
+.paymentinput{
+    margin-top:-15px;
+    margin-left:25px;
+   
+}
+.paymentborder{
+    border:1px solid black;
+    float:left;
+    width:100%;
+    padding:40px 20px;
+}
 .tabal img{
     width:40px;
     height:40px;
