@@ -205,3 +205,10 @@ header a:hover{
     text-decoration: none;
     color:black;
 }
+.membership-section img{
+    width:70%;
+    height:auto;
+}
+.mem-span{
+    color:red;
+}
