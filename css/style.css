@@ -235,6 +235,22 @@ header a:hover{
     font-size:40px;
     color: black !important;
 }
-input:focus{
-    outline: none !important;
+.amount:hover, 
+.amount:active, 
+.amount:focus
+
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.gateways{
+    background-color: rgba(190, 190, 190, 0.61);
+    border-radius:10px;
+
+}
+.cardd-img{
+    width:190px;
+    height:150px;
+    object-fit:cover;
 }
