@@ -222,3 +222,19 @@ header a:hover{
     width:120px;
     height: 120px;
 }
+.amount{
+    border: none!important;
+}
+.addone .from-control:focus{
+   outline:none!important;
+   border:none!important;
+}
+
+.amount::placeholder{
+    margin-top:10px;
+    font-size:40px;
+    color: black !important;
+}
+input:focus{
+    outline: none !important;
+}
