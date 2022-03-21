@@ -177,6 +177,7 @@ header a:hover{
     width:40px;
     height:40px;
 }
+
 .di-t{
     width:100px;
     border:1px solid black;
@@ -195,4 +196,12 @@ header a:hover{
 .uid-sediv h6{
     text-align: left;
     margin-left:28px;
+}
+.uid-text a{
+    text-decoration: none;
+    color:black;
+}
+.uid-text a:hover{
+    text-decoration: none;
+    color:black;
 }
