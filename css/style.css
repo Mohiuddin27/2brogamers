@@ -215,3 +215,10 @@ header a:hover{
 .order-section{
     background-color: rgba(207, 207, 207, 0.178);
 }
+.notenoughmoney{
+    background-color: rgba(207, 207, 207, 0.178);
+}
+.notenoughmoney img{
+    width:120px;
+    height: 120px;
+}
