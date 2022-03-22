@@ -262,6 +262,25 @@ header a:hover{
 .accordi{
     background-color: rgba(192, 49, 49, 0.288)!important;
 }
+.order-status{
+    padding-bottom:20px;
+    background-color: rgba(231, 231, 231, 0.548)!important;
+}
 .order-span{
     margin-left:320px;
+}
+.accordian1,
+.accordian2,
+.accordian3,
+.accordian4,
+.accordian5,
+.accordian6,
+.accordian7,
+.accordian8,
+.accordian9,
+.accordian10{
+    border:1px solid rgb(177, 173, 173);
+    border-radius:5px;
+    padding:10px 5px;
+    background-color:white;
 }
