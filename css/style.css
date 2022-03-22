@@ -284,3 +284,19 @@ header a:hover{
     padding:10px 5px;
     background-color:white;
 }
+.tabal a{
+    text-decoration: none;
+    color:black;
+}
+.tabal a:hover{
+    text-decoration: none;
+    color:black;
+}
+.membership-section a{
+    text-decoration: none;
+    color:black;
+}
+.membership-section a:hover{
+    text-decoration: none;
+    color:black;
+}
