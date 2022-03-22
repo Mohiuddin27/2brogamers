@@ -168,7 +168,7 @@
         object-fit:cover;
     }
     .bkash-div{
-        margin-left:25px;
+        padding-left:25px!important;
     }
   
 }
