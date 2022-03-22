@@ -254,3 +254,6 @@ header a:hover{
     height:150px;
     object-fit:cover;
 }
+.bkash-content{
+    background-color: rgba(190, 190, 190, 0.288);
+}
